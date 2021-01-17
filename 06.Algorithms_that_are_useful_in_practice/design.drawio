@@ -1,0 +1,87 @@
+<mxfile host="65bd71144e" modified="2021-01-16T09:54:42.336Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36" etag="4dx4RGNkQ-q2eaY1wFaD" version="13.10.0" type="embed" pages="2">
+    <diagram id="KVnhgQPIQyfWkEQx-K4f" name="main関数">
+        <mxGraphModel dx="1151" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="開始" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontColor=#333333;fillColor=#B3B3B3;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="ユークリッド互除法関数" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+                    <mxGeometry x="55" y="160" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="最大公約数を表示する" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="75" y="290" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="終了" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#666666;fillColor=#808080;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="410" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="2POKI6nXGfDm1YlTLUth" name="ユークリッド互除法関数">
+        <mxGraphModel dx="1151" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="jb7G7Zwk7smT01AA53ug-0"/>
+                <mxCell id="jb7G7Zwk7smT01AA53ug-1" parent="jb7G7Zwk7smT01AA53ug-0"/>
+                <mxCell id="l6WcCq8TzmfKUzg__Job-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="jb7G7Zwk7smT01AA53ug-1">
+                    <mxGeometry x="160" y="30" width="470" height="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="l6WcCq8TzmfKUzg__Job-1" value="ユークリッド互除法関数" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="jb7G7Zwk7smT01AA53ug-1">
+                    <mxGeometry x="160" y="30" width="470" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="l6WcCq8TzmfKUzg__Job-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jb7G7Zwk7smT01AA53ug-1" source="l6WcCq8TzmfKUzg__Job-3" target="l6WcCq8TzmfKUzg__Job-5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="l6WcCq8TzmfKUzg__Job-3" value="開始" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fontColor=#333333;fillColor=#808080;" vertex="1" parent="jb7G7Zwk7smT01AA53ug-1">
+                    <mxGeometry x="310" y="60" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="l6WcCq8TzmfKUzg__Job-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jb7G7Zwk7smT01AA53ug-1" source="l6WcCq8TzmfKUzg__Job-5" target="l6WcCq8TzmfKUzg__Job-10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="l6WcCq8TzmfKUzg__Job-5" value="割り算しあまりを求める" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jb7G7Zwk7smT01AA53ug-1">
+                    <mxGeometry x="290" y="170" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="l6WcCq8TzmfKUzg__Job-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jb7G7Zwk7smT01AA53ug-1" source="l6WcCq8TzmfKUzg__Job-7" target="l6WcCq8TzmfKUzg__Job-11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="l6WcCq8TzmfKUzg__Job-7" value="割る数を最大公約数として返す" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="jb7G7Zwk7smT01AA53ug-1">
+                    <mxGeometry x="310" y="380" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="l6WcCq8TzmfKUzg__Job-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jb7G7Zwk7smT01AA53ug-1" source="l6WcCq8TzmfKUzg__Job-10" target="l6WcCq8TzmfKUzg__Job-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="l6WcCq8TzmfKUzg__Job-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="jb7G7Zwk7smT01AA53ug-1" source="l6WcCq8TzmfKUzg__Job-10" target="l6WcCq8TzmfKUzg__Job-13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="l6WcCq8TzmfKUzg__Job-10" value="あまりが 0" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="jb7G7Zwk7smT01AA53ug-1">
+                    <mxGeometry x="295" y="290" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="l6WcCq8TzmfKUzg__Job-11" value="終了" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;" vertex="1" parent="jb7G7Zwk7smT01AA53ug-1">
+                    <mxGeometry x="310" y="470" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="l6WcCq8TzmfKUzg__Job-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="jb7G7Zwk7smT01AA53ug-1" source="l6WcCq8TzmfKUzg__Job-13" target="l6WcCq8TzmfKUzg__Job-5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="l6WcCq8TzmfKUzg__Job-13" value="割る数を割られる数にあまりを割る数に設定する" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#FFFFFF;" vertex="1" parent="jb7G7Zwk7smT01AA53ug-1">
+                    <mxGeometry x="480" y="285" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="l6WcCq8TzmfKUzg__Job-14" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jb7G7Zwk7smT01AA53ug-1">
+                    <mxGeometry x="330" y="345" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="l6WcCq8TzmfKUzg__Job-15" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jb7G7Zwk7smT01AA53ug-1">
+                    <mxGeometry x="440" y="290" width="40" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
